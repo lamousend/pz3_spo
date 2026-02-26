@@ -1,8 +1,4 @@
-from socket import create_connection
-from venv import create
-
 import mysql.connector
-import pandas as pd
 
 class SQLTable:
     def __init__(self, db_config, table_name):
