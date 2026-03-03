@@ -112,11 +112,6 @@ class SQLTable:
         finally:
             cursor.close()
                 # использование
-db_config = {
-    'host': "srv221-h-st.jino.ru",
-    'database': "j30084097_137",
-    'user': "j30084097_137",
-    'password': "Gruppa137"}
 
 films_table = SQLTable(db_config, 'films')
 films_table.create_table(columns= {
